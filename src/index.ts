@@ -6,7 +6,7 @@ connectToDB()
   .then(() => {
     // sample response
     app.get("/", (req, res) => {
-      res.send("Jai Shree Ram");
+      res.send("<h1>Server is running...</h1>");
     });
     app.listen(port, () => {
       console.log(
