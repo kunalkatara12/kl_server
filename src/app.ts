@@ -2,7 +2,7 @@ import express, { Express } from "express";
 import { config } from "dotenv";
 import morgan from "morgan";
 import cors from "cors";
-import { router } from "./routes/index.routes";
+import  router  from "./routes/index.routes";
 config();
 const app: Express = express();
 //middlewares

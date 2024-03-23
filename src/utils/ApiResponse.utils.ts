@@ -11,4 +11,4 @@ class ApiResponse {
         this.statusCode = statusCode < 400;
     }
 }
-export { ApiResponse };
+export default ApiResponse;
